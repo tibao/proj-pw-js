@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <h1>Formulario</h1>
+    <hr>
+    <form id="linhaFormulario">
+    <input type="number", name="ID", id="ID", placeholder="Digite o ID do produto" required>
+    <br><br>
+    <input type="text", name="produto", id="produto", placeholder="Digite qual e o produto" required>
+    <br><br>
+    <input type="text", name="marca", id="marca", placeholder="Digite a marca do produto" required>
+    <br><br>
+    <input type="text", name="segmento", id="segmento", placeholder="Digite o segmento do produto" required>
+    <br><br>
+    <input type="number", name="valor", id="valor", placeholder="Digite o valor do produto" required>
+    <br><br>
+    <input type="date", name="datadavenda", id="datadavenda">
+    <br><br>
+    <button type="button" onclick="adicionarLinha()"> Adicionar </button>
+    </form>
+    <br><br>
+    <table id="tabeladados">
+        <table>
+    <thead>
+        <td>
+        <tr>
+            <th>Id</th>
+            <th>Produto</th>
+            <th>Marca</th>
+            <th>Segmento</th>
+            <th>Valor</th>
+            <th>Data da Venda</th>
+          </tr>
+         </td>
+        </thead>  
+       <tbody>
+     </tbody>
+</table>
+
+
+</head>
+<body>
+    
+</body>
+</html>
